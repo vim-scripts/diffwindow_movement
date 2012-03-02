@@ -35,4 +35,4 @@ function! diffwindow_movement#IsDifferenceLine( lnum )
     return (diffwindow_movement#GetDiffType(a:lnum) ==# g:CountJump_Context.DiffType ? 0 : -1)
 endfunction
 
-" vim: set sts=4 sw=4 noexpandtab ff=unix fdm=syntax :
+" vim: set ts=8 sts=4 sw=4 noexpandtab ff=unix fdm=syntax :
