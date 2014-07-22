@@ -2,16 +2,16 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=3719
 
 DESCRIPTION
 This plugin provides movement commands and text objects for windows in diff
-mode. 
+mode.
 
 USAGE
-]C			Go to [count] next end of a change. 
-[C			Go to [count] previous end of a change. 
-			These complement the built-in ]c [c commands. 
+]C                      Go to [count] next end of a change.
+[C                      Go to [count] previous end of a change.
+                        These complement the built-in ]c [c commands.
 
-ic			"inner change" text object; in a diff window, select
-			[count] changes. 
-id			"inner difference" text object; difference is more
-			fine-granular than diff changes; in a diff window,
-			select a range of lines that have the same
-			DiffAdd/DiffChange/DiffDelete highlighting.
+ic                      "inner change" text object; in a diff window, select
+                        [count] changes.
+id                      "inner difference" text object; difference is more
+                        fine-granular than diff changes; in a diff window,
+                        select a range of lines that have the same
+                        DiffAdd/DiffChange/DiffDelete highlighting.
